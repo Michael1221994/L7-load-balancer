@@ -20,7 +20,7 @@ type Backend struct {
 
 	mu   sync.Mutex
 	ewma time.Duration
-} //
+} //none
 
 func (b *Backend) observeLatency(d time.Duration) {
 	const alpha = 0.2
